@@ -36,7 +36,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
 
 ## Descriptive Results
- 
+
 ### Graphical Descriptive Results
 ```{r}
 boxplot(pushups~position,data=mydata)
@@ -51,7 +51,7 @@ The Graph shows that the skilled group is doing more push ups then the line grou
 favstats(pushups~position,data=mydata)
 ```
 
-The skilled players are doing three times more pushups then the line players,the first quadrant of the skilled players is 31.25 while the third quadrant of the Line players is 24.25, showing the line players are smaller comparing the two quadrants.
+The skilled players are doing three times more pushups then the line players,the first quadrant of the skilled players is 31.25 while the third quadrant of the Line players is 24.25, showing the line players smaller comparing the two quadrants.
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
@@ -63,6 +63,6 @@ the probability of this to occur is 0.000009421, we reject the null hypothesis, 
 
 
 # Discussion and Conclusion
-First I needed to see what Data I was going to be working with, then I typed out the command to show me the data of the two groups, Line and skill players. Skilled players are shown to do more pushups then line players.
-<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+First I needed to see what Data I was going to be working with, next we needed to figure out the Numerical data, by implementing a code we are able to get a box plot to show how many push ups both sides are doing, then we checked and concuded it was numerical data. Implementing the code, it shows that only 1/3 of the line playes do less push ups then skilled players. Last, we ran another code for a t.test and concluded the probability is way less than being any different.
