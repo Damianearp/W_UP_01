@@ -18,7 +18,7 @@ mydata <- read.csv(file="pushups.csv")
 ```
 
 # Introduction
-
+In this section, we will be seeing if the weight of players in different groups effect the amount of pushups that they can do
 <!--In this section you explain what you are trying to show. Where did the data come from? What is the research or other question you are trying to answer?!-->
 
 Create an Rstudio project in your shared space on rstudio.cloud.  Using the dataset called pushups from the tigerstats package in R; answer the question posed by this null and alternate hypothesis in an html markdown document.
@@ -51,18 +51,18 @@ The Graph shows that the skilled group is doing more push ups then the line grou
 favstats(pushups~position,data=mydata)
 ```
 
-
+The skilled players are doing three times more pushups then the line players,the first quadrant of the skilled players is 31.25 while the third quadrant of the Line players is 24.25, showing its smaller comparing the two quadrants.
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-the probability of this to occur is 0.000009421  
+the probability of this to occur is 0.000009421, we reject the null hypothesis, there isn't any difference between the pushups and the Line and skill players.
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
 # Discussion and Conclusion
-
+First I needed to see what Data I was going to be working with, then I typed out the command to show me the data of the two groups, Line and skill players. Skilled players are shown to do more pushups then line players.
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
