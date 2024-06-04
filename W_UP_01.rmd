@@ -36,13 +36,13 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
 
 ## Descriptive Results
-
+ 
 ### Graphical Descriptive Results
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
 
-The Graph shows that the skilled group is doing more push ups then the line group, the line players average about 15 pushups compared to the skilled 50 pushups  
+The Graph shows that the skilled group is doing more push ups then the line group, the line players average about 15 push ups compared to the skilled 50 push ups, this can be seen by looking at the median which is refered to with the big black bold line in the middle of the boxes.
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
@@ -51,7 +51,7 @@ The Graph shows that the skilled group is doing more push ups then the line grou
 favstats(pushups~position,data=mydata)
 ```
 
-The skilled players are doing three times more pushups then the line players,the first quadrant of the skilled players is 31.25 while the third quadrant of the Line players is 24.25, showing its smaller comparing the two quadrants.
+The skilled players are doing three times more pushups then the line players,the first quadrant of the skilled players is 31.25 while the third quadrant of the Line players is 24.25, showing the line players are smaller comparing the two quadrants.
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
